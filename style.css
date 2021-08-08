@@ -1,0 +1,515 @@
+/* https://www.youtube.com/watch?v=lcU3pruVyUw */
+
+#title {
+  width: 100%;
+  height: 880px;
+}
+#asdd {
+  z-index: -1;
+  opacity: 0.95;
+  position: absolute;
+  z-index: -1;
+  width: 1570px;
+  height: 100%;
+}
+#nav {
+  background-color: rgba(0, 0, 0, 0.645);
+  width: 1480px;
+  height: 6%;
+  margin: 20px;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  float: left;
+  padding: 20px;
+}
+#logo {
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.link > a {
+  color: white;
+  text-decoration: none;
+  padding-left: 40px;
+  font-size: 25px;
+}
+.link > a:hover {
+  text-decoration: underline;
+  color: rgb(226, 71, 14);
+}
+.book {
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 20px;
+  float: right;
+  position: relative;
+  right: 30px;
+}
+.book:hover {
+  background-color: rgb(143, 23, 1);
+}
+#info {
+  color: rgb(226, 71, 14);
+  position: absolute;
+  top: 130px;
+  left: 100px;
+}
+#make {
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+#make:hover {
+  background-color: black;
+}
+/* ************ the first part ***************** */
+#bod {
+  width: 1570px;
+  height: 750px;
+  background-color: black;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+#welcom {
+  color: rgb(226, 71, 14);
+  position: absolute;
+  left: 300px;
+}
+#story {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  top: 170px;
+  left: 900px;
+  font-size: 30px;
+  color: white;
+}
+/* ********** part two *********** */
+#three {
+  width: 1570px;
+  height: 1500px;
+  background-color: rgba(5, 5, 5, 0.85);
+  background-size: cover;
+}
+#descr {
+  color: rgb(226, 71, 14);
+  position: absolute;
+  left: 200px;
+}
+.pho {
+  position: absolute;
+}
+#fig1 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 200px;
+  top: 430px;
+}
+.sty {
+  color: cornsilk;
+  font-size: 40px;
+  font-family: "Acme", sans-serif;
+  color: rgb(226, 71, 14);
+}
+#sty1 {
+  position: relative;
+  top: 750px;
+  left: 230px;
+}
+#fig2 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  left: 200px;
+  top: 850px;
+}
+#sty2 {
+  position: relative;
+  top: 850px;
+  left: 210px;
+}
+#fig3 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  left: 950px;
+  top: 70px;
+}
+#sty3 {
+  position: relative;
+  top: 70px;
+  left: 950px;
+}
+#fig4 {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  left: 950px;
+  top: 570px;
+}
+#sty4 {
+  position: relative;
+  top: 570px;
+  left: 950px;
+}
+@keyframes pluss {
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+.imgg:hover {
+  animation-name: pluss;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+/************ part three *************** */
+#four {
+  width: 1570px;
+  height: 700px;
+  background-size: cover;
+}
+.swee {
+  width: 300px;
+  height: 190px;
+  margin: 10px;
+}
+#parag {
+  position: absolute;
+  top: 3290px;
+  left: 600px;
+  color: rgb(242, 205, 0);
+  text-shadow: 15px 15px 6px black;
+}
+#parag2 {
+  position: absolute;
+  top: 3400px;
+  left: 380px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.swee:hover {
+  transform: scale(1.5, 1.5);
+}
+/* ***************** part four *****************/
+#five {
+  width: 1570px;
+  height: 1800px;
+  background-color: rgba(5, 5, 5, 0.85);
+  background-size: cover;
+  position: relative;
+}
+#love {
+  color: rgb(226, 71, 14);
+  position: absolute;
+  left: 300px;
+}
+.comm {
+  color: cornsilk;
+  font-size: 15px;
+  left: 300px;
+  position: absolute;
+  line-height: 30px;
+  font-family: "Acme", sans-serif;
+  letter-spacing: 2px;
+}
+.tom {
+  font-family: "Lobster", cursive;
+  color: rgb(226, 71, 14);
+  font-size: 30px;
+}
+.tomm {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#partt {
+  position: absolute;
+}
+.foot {
+  color: rgb(226, 71, 14);
+  position: absolute;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+}
+#foot1 {
+  left: 620px;
+  top: 990px;
+}
+.book2 {
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 20px;
+  position: relative;
+  top: 670px;
+  left: 700px;
+}
+.book2:hover {
+  background-color: rgb(143, 23, 1);
+}
+
+#foot2 {
+  left: 570px;
+  top: 1150px;
+}
+#end {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  top: 900px;
+  left: 110px;
+}
+/* **************** part five ************ */
+#sidee {
+  left: 150px;
+  top: 1380px;
+}
+#sidee2 {
+  left: 150px;
+  top: 1550px;
+}
+.photoo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.photoo:hover {
+  transform: scale(1.5, 1.5);
+}
+#sidee3 {
+  left: 1150px;
+  top: 1370px;
+}
+#sidee4 {
+  left: 1060px;
+  top: 530px;
+}
+/*********** coping ********* */
+#coping {
+  width: 1570px;
+  height: 50px;
+  background-color: rgba(5, 5, 5, 0.85);
+  background-size: cover;
+}
+
+/* ****************** about page ************ */
+/* ****************** about page ************ */
+/* ****************** about page ************ */
+/* ****************** about page ************ */
+/* ****************** about page ************ */
+/* ****************** about page ************ */
+
+.about_tit {
+  width: 100%;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tot {
+  font-family: "Lobster", cursive;
+  color: rgb(226, 71, 14);
+  position: absolute;
+}
+#tot1 {
+  left: 500px;
+  top: 300px;
+  text-shadow: 10px 10px 5px rgb(228, 228, 117);
+  font-size: 100px;
+}
+.toto {
+  font-size: 30px;
+  color: cornsilk;
+  position: absolute;
+  top: 600px;
+  left: 250px;
+  line-height: 45px;
+  font-family: "Acme", sans-serif;
+}
+/* ************** part one ************ */
+#about_info {
+  width: 1570px;
+  height: 1350px;
+  background-color: rgba(5, 5, 5, 0.85);
+  position: relative;
+}
+#tot2 {
+  left: 200px;
+  top: 700px;
+  font-size: 60px;
+}
+#about_his {
+  color: rgb(226, 71, 14);
+  position: relative;
+  font-family: "Acme", sans-serif;
+  letter-spacing: 4px;
+  top: 870px;
+  left: 460px;
+}
+#yop {
+  color: whitesmoke;
+  position: relative;
+  font-family: "Acme", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  top: 860px;
+  left: 400px;
+}
+/* *********** part three ****************** */
+#about_beco {
+  width: 1570;
+  height: 700px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+/* ****************** menu page ************ */
+/* ****************** menu page ************ */
+/* ****************** menu page ************ */
+/* ****************** menu page ************ */
+/* ****************** menu page ************ */
+/* ****************** menu page ************ */
+.menu_title {
+  font-family: "Lobster", cursive;
+  color: rgb(226, 71, 14);
+  position: absolute;
+  font-size: 150px;
+  top: 150px;
+  left: 550px;
+  text-shadow: 10px 10px 5px yellowgreen;
+}
+/*  **************part one ******************  */
+.menu_info {
+  width: 1570px;
+  height: 830px;
+  background-color: rgba(5, 5, 5, 0.884);
+  position: relative;
+}
+.photo_1 {
+  width: 650px;
+  height: 750px;
+}
+.menu_title2 {
+  font-family: "Lobster", cursive;
+  color: rgb(235, 133, 38);
+  position: relative;
+  font-size: 70px;
+  left: 250px;
+  top: -40px;
+}
+.pransh {
+  font-size: 30px;
+  position: absolute;
+  color: rgb(235, 133, 38);
+}
+#pransh {
+  left: 100px;
+  top: 170px;
+}
+.pransh2 {
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  width: 480px;
+  font-family: "Acme", sans-serif;
+  letter-spacing: 2px;
+}
+#pransh2 {
+  top: 195px;
+  left: 100px;
+}
+.coin {
+  font-size: 60px;
+  position: absolute;
+  color: rgb(235, 133, 38);
+}
+#coin {
+  top: 110px;
+  left: 730px;
+}
+#pransh4 {
+  top: 310px;
+  left: 100px;
+  width: 400px;
+}
+#pranshh4 {
+  top: 335px;
+  left: 100px;
+}
+#coin4 {
+  left: 730px;
+  top: 260px;
+}
+#pransh5 {
+  left: 100px;
+  top: 450px;
+  width: 400px;
+}
+#pranshh5 {
+  left: 100px;
+  top: 475px;
+}
+#coin5 {
+  left: 730px;
+  top: 400px;
+}
+#pransh6 {
+  left: 100px;
+  top: 600px;
+}
+#pranshh6 {
+  left: 100px;
+  top: 625px;
+}
+#coin6 {
+  left: 730px;
+  top: 540px;
+}
+/* *********** part two ********** */
+.menu_info2 {
+  width: 1570px;
+  height: 18300px;
+  background-color: rgba(5, 5, 5, 0.884);
+}
+/* ****************** contact page ************ */
+/* ****************** contact page ************ */
+/* ****************** contact page ************ */
+
+.infor {
+  width: 180px;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Acme", sans-serif;
+}
+#subb {
+  height: 50px;
+  width: 150px;
+  margin-top: 15px;
+  padding: 10px;
+  font-family: "Acme", sans-serif;
+  background-color: rgba(15, 9, 9, 0.651);
+  color: blanchedalmond;
+  cursor: pointer;
+}
