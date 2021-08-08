@@ -1,5 +1,3 @@
-/* https://www.youtube.com/watch?v=lcU3pruVyUw */
-
 #title {
   width: 100%;
   height: 880px;
@@ -61,17 +59,17 @@
   top: 130px;
   left: 100px;
 }
-#make {
+.make {
   text-decoration: none;
   color: white;
-  width: 150px;
-  height: 20px;
+  width: 250px;
+  height: 30px;
   text-align: center;
   padding: 10px;
   border: solid 1px white;
   border-radius: 20px;
 }
-#make:hover {
+.make:hover {
   background-color: black;
 }
 /* ************ the first part ***************** */
@@ -192,14 +190,16 @@
 #parag {
   position: absolute;
   top: 3290px;
-  left: 600px;
+  left: 350px;
   color: rgb(242, 205, 0);
   text-shadow: 15px 15px 6px black;
 }
 #parag2 {
   position: absolute;
   top: 3400px;
-  left: 380px;
+  left: 70px;
+  width: 1400px;
+  text-align: center;
   font-size: 30px;
   color: rgb(255, 255, 255);
 }
@@ -332,9 +332,11 @@
   font-family: "Lobster", cursive;
   color: rgb(226, 71, 14);
   position: absolute;
+  width: 1100px;
+  text-align: center;
 }
 #tot1 {
-  left: 500px;
+  left: 200px;
   top: 300px;
   text-shadow: 10px 10px 5px rgb(228, 228, 117);
   font-size: 100px;
@@ -356,7 +358,7 @@
   position: relative;
 }
 #tot2 {
-  left: 200px;
+  left: -180px;
   top: 700px;
   font-size: 60px;
 }
@@ -366,7 +368,7 @@
   font-family: "Acme", sans-serif;
   letter-spacing: 4px;
   top: 870px;
-  left: 460px;
+  left: 550px;
 }
 #yop {
   color: whitesmoke;
@@ -375,7 +377,7 @@
   font-size: 25px;
   letter-spacing: 2px;
   top: 860px;
-  left: 400px;
+  left: 500px;
 }
 /* *********** part three ****************** */
 #about_beco {
@@ -395,8 +397,10 @@
   color: rgb(226, 71, 14);
   position: absolute;
   font-size: 150px;
+  width: 1100px;
   top: 150px;
-  left: 550px;
+  left: 250px;
+  text-align: center;
   text-shadow: 10px 10px 5px yellowgreen;
 }
 /*  **************part one ******************  */
@@ -420,6 +424,7 @@
 }
 .pransh {
   font-size: 30px;
+  width: 550px;
   position: absolute;
   color: rgb(235, 133, 38);
 }
